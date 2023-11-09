@@ -1,12 +1,11 @@
 import { Skeleton } from "@/components/ui/skeleton"
-import Dashboard from "./dashboard"
+// import Dashboard from "./dashboard"
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow,} from "@/components/ui/table"
-  
 
 export default function Index() {
   return (
     <div className="flex flex-col gap-4">
-        <Dashboard />
+        {/* <Dashboard /> */}
         <div className="gap-2 px-5">
             <div className="flex border h-full p-4">
                 <div className="flex items-center space-x-4">
